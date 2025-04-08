@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(205, 182, 182);
+}
+nav ul{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  };
+  nav a{
+    text-decoration: none;
+    color: black
+  };
+  @media(max-width:768px){
+    nav ul{
+      flex-direction: column;
+      gap: 10px;
+    }
+  };
+  a:hover{
+    color: #080e14;
+  };
+  .content{
+    background-color: #0e1216;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(45, 14, 14);
+    text-align: center;
+    font-family: Arial,sans-serif;
+  };
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold; /* Text îngroșat */
+    font-style: italic; /* Text înclinat */
+    margin-bottom: 20px; 
+    color: wheat;
+  }
+  .p1{
+    color:rgb(33, 41, 41);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: justify;
+    text-transform: unset;  
+    
+  };
